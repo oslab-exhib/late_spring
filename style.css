@@ -1,0 +1,15 @@
+p{
+    color: lawngreen;
+}
+
+h1 {
+    color: lawngreen;
+}
+
+p em {
+    color:purple !important;
+}
+
+p em {
+    color: pink;
+}
