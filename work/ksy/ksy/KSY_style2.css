@@ -1,0 +1,267 @@
+
+.whole-frame {
+  position: relative;
+    margin: 0px auto;
+    width:900px;
+    height:800px;   
+}
+
+
+.title {
+    position: absolute;
+    z-index: 0;
+font-family: 'Nanum Myeongjo', serif;
+font-size: 45px;
+    color: blueviolet;
+    transition: color 0.3s;
+    transition-duration: color 1s;
+}
+
+
+.title-bling img {
+    width: 130px;
+    opacity:0.8;
+}
+
+.title-bling {
+    position: absolute;
+    z-index: 1;
+    top:0px;
+    left: 150px;
+    transition: all 0.6s;
+}
+
+
+.title:hover {
+    color: rgba(220,180,230,1);
+}
+.title:hover + .title-bling {
+    transform: translateX(-300px);
+}
+
+p {
+    position: absolute;
+    top: 85px;
+    font-size:12px;
+    margin:25px 0px;
+   font-family: 'Nanum Myeongjo', serif;
+    color: blueviolet;
+}
+
+
+.frame2 {
+    position:relative;
+    margin: 0px auto;
+    top:180px;
+    width:900px;
+    height:600px;
+}
+
+
+.background {
+    position: absolute;
+    z-index: -3;
+    top: 0px;
+    opacity: 0.6;
+}
+
+.block1 {
+    position:absolute;
+    bottom:-5px;
+    left:0px;
+     z-index: 2;
+}
+
+.block2 {
+    position:absolute;
+    bottom:-5px;
+    right:0px;
+     z-index: 0;
+}
+
+.cat {
+    position:absolute;
+    bottom:70px;
+    right:160px;
+    z-index: 2;
+    transition: all 0.5s;
+}
+
+.cat:hover { 
+ filter:brightness(0.1);
+    transform: translateY(-30px) scale(1.2);
+}
+
+.cat-eye {
+    opacity: 0;
+    top: 185px;
+    right:280px;
+    z-index: -3;
+    transition: all 0.6s;
+    width: 22px;
+}
+
+.cat-eye img{
+    width: 22px;
+    
+}
+
+.cat:hover + .cat-eye {
+    position:absolute;
+    opacity: 0.6;
+    z-index: 3;
+}
+
+.paper {
+     position:absolute;
+    bottom:70px;
+    right:233px;
+    z-index: -3;
+}
+
+.fence1 img{
+     position:absolute;
+    bottom:20px;
+    mix-blend-mode: multiply;
+    z-index: -1;
+}
+
+
+.fence2 {
+     position:absolute;
+    bottom:20px;
+    right:0px;
+    z-index: -1;
+    mix-blend-mode: multiply;
+}
+
+.flower1 {
+      position:absolute;
+    bottom:50px;
+    left:350px;
+    z-index: 1;
+    transition: all 0.3s;
+}
+
+.flower1:hover {
+    transform: scale(1.05) rotate(3deg) translateY(-10px);
+}
+
+
+.flower1-bling {
+     position:absolute;
+    bottom:100px;
+    left:230px;
+    z-index: -3;
+    opacity: 0;
+    transition-delay: 0.3s;
+    }
+
+
+.flower1:hover {
+filter:contrast(1.2);
+}
+
+.flower1:hover + .flower1-bling {
+    opacity:1;
+    z-index: 1;
+}
+
+.flower1-bling img{
+    transform: rotate(-90deg) scale(0.9);
+}
+
+.flower2 {
+      position:absolute;
+    bottom:30px;
+    left:420px;
+    z-index: 5;
+}
+
+.flower2:hover {
+    transform: scale(1.05) rotate(3deg);
+}
+
+
+.flower3 {
+      position:absolute;
+    bottom:20px;
+    z-index: 5;
+    right:180px;
+}
+
+.flower3:hover {
+    transform: scale(1.05) rotate(3deg);
+}
+
+.M {
+    position: absolute;
+    bottom:40px;
+    left: 145px;
+    z-index: 0;
+    transform: scale(1.2);
+}
+
+.M:hover {
+   filter: brightness(1.1);
+    cursor: pointer;
+}
+
+.M:hover + .gorani {
+    transform: translateX(230px) translateY(-40px);
+     opacity:1;
+    z-index: -2;
+}
+
+
+.white-box img{
+    position: absolute;
+    opacity:1;
+    bottom: 0px;
+    height: 600px;
+    left:-600px ;
+    z-index: 5;
+}
+
+.gorani {
+    position: absolute;
+    opacity:1;
+    bottom: 30px;
+    left:-320px ;
+    transform: scale(0.9);
+    z-index: 0;
+    transition: transform 0.5s ;
+}
+
+.tape1 {
+    position: absolute;
+    top: 70px;
+    left: 230px;
+    z-index: -2;
+}
+
+.tape2 {
+    position: absolute;
+    top: 130px;
+    left: 220px;
+    z-index: -3;
+}
+
+.tape3 {
+    position: absolute;
+    bottom:30px;
+    right: 70px;
+    opacity:0.8;
+}
+
+footer {
+    margin:0px;
+    position:relative;
+    bottom: 0px;
+}
+
+h5 {
+    text-align: center;
+    font-size: 11px;
+    margin:30px 0px 0px  0px;
+}

@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: antiquewhite;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+nav {
+    width: 1280px;
+    height: 160px;
+    background: url('images/header.png')no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.nav-background {
+    position: absolute;
+    width: 1280px;
+    height: 160px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
+#nav-title {
+    display: inline-block;
+    float: left;
+    padding: 60px 60px;
+    color: aliceblue;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 60px 60px;
+    color: aliceblue;
+
+}
+
+.description {
+    /*    border: 1px dotted gray;*/
+    margin-top: 50px;
+}
+
+
+.description p {
+    font-size: 11pt;
+    padding: 0 60px;
+    line-height: 18pt;
+    margin:40px 450px 0 0 ;
+}
+
+.header-title {
+    margin-right: 40px;
+}
+
+.header-title h3 {
+    display: inline-block;
+    font-size: 40px;
+    padding: 0 55px;
+}
+
+.header-title p {
+    margin: 15px 10px 20px 0;
+    font-size: 16pt;
+}
+
+.face {
+    display: inline-block;
+    margin-top: -90px;
+    float: right;
+}
+
+.face img {
+    display: inline-block;
+    margin: 5px;
+    width: 80px;
+    width: 80px;
+    background: rgb(234, 218, 222);
+    border-radius: 180px;
+
+}
+
+.artwork {
+    margin: 100px 0 100px 0;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+.two-column {
+    display: inline-block;
+    width: 40%;
+    margin: 0 auto;
+    padding: 0 10px;
+    margin-top: 50px;
+}
+
+.two-column img {
+    width: 100%;
+    float: left;
+    -webkit-box-shadow: 0px 0px 20px 7px rgba(0, 0, 0, 0.20);
+    box-shadow: 0px 0px 20px 7px rgba(0, 0, 0, 0.20);
+}
+
+.two-column h4 {
+    text-align: center;
+    padding-top: 380px;
+    font-size: 24pt;
+}
+
+.two-column p {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 12pt;
+}
+
+
+
+.top {
+    text-align: center;
+}
+
+.top a {
+    color: darkslategray;
+}
+
+footer {
+    width: 1280px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 40px;
+
+
+    text-align: center;
+
+}
+
+.logo img {
+    width: 10%;
+    float: left;
+    margin: 3% 100px;
+}
+
+
+.contant-us {
+    float: right;
+    margin: 3% 100px;
+    font-size: 41px;
+}
+
+
+.contant-us a {
+    color: aliceblue;
+}

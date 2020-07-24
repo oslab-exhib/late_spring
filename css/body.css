@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Arita-buri-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-buri-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arita-buri-SemiBold, serif;
+    background-color: rgb(251, 243, 245);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+li a {
+    color: blanchedalmond;
+    list-style: none;
+}
