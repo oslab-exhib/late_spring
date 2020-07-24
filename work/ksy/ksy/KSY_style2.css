@@ -3,56 +3,14 @@
   position: relative;
     margin: 0px auto;
     width:900px;
-    height:800px;   
-}
-
-
-.title {
-    position: absolute;
-    z-index: 0;
-font-family: 'Nanum Myeongjo', serif;
-font-size: 45px;
-    color: blueviolet;
-    transition: color 0.3s;
-    transition-duration: color 1s;
-}
-
-
-.title-bling img {
-    width: 130px;
-    opacity:0.8;
-}
-
-.title-bling {
-    position: absolute;
-    z-index: 1;
-    top:0px;
-    left: 150px;
-    transition: all 0.6s;
-}
-
-
-.title:hover {
-    color: rgba(220,180,230,1);
-}
-.title:hover + .title-bling {
-    transform: translateX(-300px);
-}
-
-p {
-    position: absolute;
-    top: 85px;
-    font-size:12px;
-    margin:25px 0px;
-   font-family: 'Nanum Myeongjo', serif;
-    color: blueviolet;
+    height:600px;   
 }
 
 
 .frame2 {
     position:relative;
     margin: 0px auto;
-    top:180px;
+    top:0px;
     width:900px;
     height:600px;
 }
@@ -252,6 +210,26 @@ filter:contrast(1.2);
     bottom:30px;
     right: 70px;
     opacity:0.8;
+    z-index: 3;
+}
+
+.tape3:hover + .johyungE-2 {
+    transform: rotate(6deg);
+}
+
+.johyungE-1 {
+    position: absolute;
+    bottom:20px;
+    left: 310px;
+    z-index: -1;
+}
+
+.johyungE-2 {
+    position: absolute;
+    bottom:10px;
+    right: 120px;
+    z-index: 1;
+    transform: rotate(-10deg);
 }
 
 footer {

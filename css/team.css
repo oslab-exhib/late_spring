@@ -24,7 +24,7 @@ body {
 nav {
     width: 1280px;
     height: 160px;
-    background: url('images/header.png')no-repeat;
+    background: url('images/long-header.png')no-repeat;
     background-position: center;
     background-size: cover;
     margin-bottom: 50px;
@@ -36,7 +36,7 @@ nav {
     position: absolute;
     width: 1280px;
     height: 160px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.3);
 }
 
 
@@ -59,7 +59,6 @@ nav ul li {
 }
 
 .description {
-    /*    border: 1px dotted gray;*/
     margin-top: 50px;
 }
 
@@ -67,8 +66,9 @@ nav ul li {
 .description p {
     font-size: 11pt;
     padding: 0 60px;
-    line-height: 18pt;
-    margin:40px 450px 0 0 ;
+    line-height: 20pt;
+    margin: 40px 450px 0 0;
+    opacity: 0.7;
 }
 
 .header-title {
@@ -124,6 +124,13 @@ nav ul li {
     float: left;
     -webkit-box-shadow: 0px 0px 20px 7px rgba(0, 0, 0, 0.20);
     box-shadow: 0px 0px 20px 7px rgba(0, 0, 0, 0.20);
+    opacity: 0.6;
+    transition: all 1s;
+}
+
+.two-column:hover img {
+    opacity: 1;
+    transition: all 1s;
 }
 
 .two-column h4 {
@@ -153,10 +160,7 @@ footer {
     height: 200px;
     margin: 0 auto;
     margin-top: 40px;
-
-
     text-align: center;
-
 }
 
 .logo img {
@@ -165,14 +169,22 @@ footer {
     margin: 3% 100px;
 }
 
-
-.contant-us {
+.footer-box {
+    /*	background-color: aqua;*/
     float: right;
     margin: 3% 100px;
+    width: 750px;
+}
+
+.contact-us {
+    /*	background-color:darkkhaki;*/
+    text-align: right;
     font-size: 41px;
 }
 
-
-.contant-us a {
-    color: aliceblue;
+.footer-text {
+    margin-top: 40px;
+    /*	background-color: crimson;*/
+    text-align: right;
+    font-size: 15px;
 }

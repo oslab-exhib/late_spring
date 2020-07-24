@@ -1,0 +1,411 @@
+* {
+/*    border: 2px dashed gray;*/
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F1EAE0;
+}
+
+.frame {
+    width: 1280px;
+    margin: 0 auto;
+    color: #2F1B0B
+}
+
+
+.center {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.year {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 24px;
+    color:#272333;
+    margin:0 auto;
+    font-weight:600;
+}
+
+.springtime {
+    position: absolute;
+    width:1280px;
+    margin: 0 auto;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.logo {
+    display:block;
+    font-family: 'Song Myung', serif;
+    font-size: 90px;
+    color:#402E1F;
+    margin: 0 -50px;
+    padding: 10px 80px;
+    transition: all 0.5s;
+}
+
+.center:hover .logo{
+    color:#FF81AF;
+    opacity: 1;
+}
+
+.center:hover .springtime {
+
+    opacity: 0.5;
+}
+
+.description {
+/*    border: 1px dotted gray;*/
+     text-align: center;
+    font-family: 'Nanum Myeongjo', serif;
+    margin-bottom: 80px;
+    line-height: 22pt;
+}
+
+
+.frame {
+    width: 1280px;
+    margin: 0 auto;
+    margin-top:60px;
+    border-left: 1px dotted rgba(64,46,31,0.2);
+    border-right: 1px dotted rgba(64,46,31,0.2);
+}
+
+.frame img{
+    display : block;
+    margin: 0 auto;
+
+}
+
+/*1번째 오후의 어느날 */
+
+#back-flower {
+    margin: 0 auto;
+    position: absolute;
+    padding: 100px 0;
+}
+
+.flower-move {
+z-index: -1;
+position: relative;
+display:block;
+max-width:900px;
+margin:0px auto;
+animation:animatedbang 3s infinite
+}
+
+@keyframes animatedbang
+
+{
+0%{transform:translate(10px,10px);}
+50%{transform:translateY(-15px);}
+100%{transform:translate(10px,10px);}
+}
+
+.room {
+    position: relative;
+}
+/* / 인형,컵은 후버 / 핸드폰은 css */
+
+.object {
+    position: absolute;
+    float: left;
+    top:0;
+    left: 0;
+}
+
+#book {
+    position: absolute;
+    top: 1160px;
+    left:450px;
+    transition: transform 0.3s;
+    transform:scale(0.9);
+}
+
+#book:hover {
+    transform:scale(1.0);
+}
+
+* {
+  box-sizing:border-box;
+}
+body {
+  margin:0;
+}
+.hidden {
+  display:none;
+  visibility:hidden;
+}
+
+
+/* 버튼으로 사용할 라벨 디자인 */
+.button {
+  vertical-align:middle;
+  cursor:pointer;
+}
+
+/* 모달 윈도우 디자인 */
+.box_modal {
+  position:fixed;
+  display:block;
+  width:300px;
+  height:195px;
+  top:50%;
+  left:50%;
+  margin-top:-75px;
+  margin-left:-150px;
+  background:#d9e5e9;
+  border:1px solid #386980;
+  overflow:hidden;
+  /* 아래 부분은 애니메이션 효과를 위한 부분 */
+  visibility: collapse;
+  opacity: 0.8;
+  filter: alpha(opacity=60);
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+  -webkit-transform: scale(0, 0);
+  -ms-transform: scale(0, 0);
+  transform: scale(0, 0);
+}
+.box_modal:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+/* 닫기 버튼으로 사용할 라벨 */
+.closer {
+  position:absolute;
+  width:30px;
+  height:30px;
+  top:0;
+  right:0;
+  background:#eee;
+  border-left:1px solid #386980;
+  border-bottom:1px solid #386980;
+  text-align:center;
+  line-height:26px;
+  font-size:16x;
+  cursor:pointer;
+}
+.text {
+    
+font-family: 'Nanum Myeongjo', serif;
+  display:inline-block;
+  padding:20px;
+ line-height: 24px;
+}
+.text h3 {
+  font-size:20px;
+  margin:0;
+}
+.text p {
+  font-size:14px;
+}
+
+/* 모달 윈도우가 팝업되는 코어 소스 */
+input#modal[type=checkbox]:checked ~ .box_modal {
+  visibility: visible;
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+}
+.phone {
+    position: absolute;
+    top: 1170px;
+    left:669px;
+    transition: transform 0.3s;
+    transform:scale(0.9); 
+    animation:phoneblack 3s infinite;
+
+}
+
+.phone:hover {
+    transform:scale(1.0);
+}
+
+.phone-alarm {
+    position: absolute;
+    top: 1170px;
+    left:669px;
+    transform:scale(0.9); 
+}
+
+.phone-alarm:hover {
+    transform:scale(1.0);
+}
+
+@keyframes phoneblack
+
+{
+0%{opacity:0;}
+50%{opacity:1;}
+100%{opacity:0;;}
+}
+
+
+.doll {
+    background: url('images/1_doll.png') no-repeat;
+    position: absolute;
+    top: 850px;
+    left:700px;
+    transition: all 0.5s;
+}
+
+.doll:hover {
+    opacity: 0;
+}
+
+.doll-tired {
+    background: url('images/1_doll.png') no-repeat;
+    position: absolute;
+    top: 850px;
+    left:700px;
+    transition: all 0.5s;
+}
+
+.cup_melting {
+    position: absolute;
+    top: 980px;
+    left:480px;
+    
+}
+
+.cup {
+    position: absolute;
+    top: 980px;
+    left:480px;
+    transition: all 0.5s;
+}
+
+.cup:hover {
+    opacity: 0;
+}
+
+
+
+
+/*2번째 불어오는 꽃잎 */
+.spring {
+    position: relative;
+    top: -400px; 
+    animation:springcoming 3s scroll;
+}
+
+
+/* 전원키 - (시간되면 자바 시계 넣기) / 카메라키 하면 오퍼시티로 css애니메이션 */
+
+
+.home {
+    position: relative;
+    top: 2019px;
+    left:412px;
+    width: 470px;
+    height: 40px;
+}
+
+.home-button {
+    position: absolute;
+    left: 168px;
+    
+
+}
+
+.phoneback {
+     position: absolute;
+    top: -727px;
+    opacity:0;
+    transition: all 0.5s;
+    
+}
+
+.home:hover .phoneback {
+
+    opacity:1;
+    filter: blur(5px);
+    filter: sepia(0.3);
+    
+}
+
+
+.camera_button {
+     position: absolute;
+    top: 1912px;
+    left:601px;
+}
+
+.spring:hover .flower{
+    
+    transform: scale(1);
+    transform: translate(480px,1600px) rotateY(180deg);
+}
+
+
+.flower {
+    position: absolute;
+    top: 500px;
+    left:220px;
+    transition: all 3s;
+    transform: scale(0.2);
+}
+
+
+
+/*3번째 봄의 기원 */
+/* 벚꽃잎 - div 크게 만들어서 움직이기(css) +오퍼시티 낮춰서 없앰 + 원래자리에 오퍼시티 줘서 보이게 올리고 클릭하면 밑으로 내려가게 */
+
+.dream {
+    margin: -500px auto 0 auto;
+    width: 900px;
+    height:500px;
+    background: #FDF0BF;
+}
+
+.dream p{
+    font-family:'Nanum Myeongjo', serif;
+    font-size: 35px;
+    text-align: center; 
+    margin: 100px;
+    line-height: 60px;
+}
+
+/*div 크기 크게 줘서 걍 당겨오게*/
+
+#search {
+    width:900px;
+    margin: 0 auto;
+    bottom: 15px;
+    height: 30px;
+    line-height: 30px;
+    padding: 8px 14px 10px 10px;
+}
+
+/* 속성 선택자 */
+#search > input[type="text"] {
+    border: none;
+    background: none;
+    font-size: 24px;
+    font-family:'Nanum Myeongjo', serif;
+    width:900px;
+    height: 30px;
+    text-align: center;
+}
+
+/*밑에 애니메이션으로 원 커졋다 작아적다할수잇을듯*/
+
+
+
+/* Footer */
+
+footer{
+    margin-top: 80px;
+    height:30px;
+    padding: 80px 0;
+    text-align: center;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.right {
+    text-align: center;
+}

@@ -1,0 +1,265 @@
+.section2-frame2:hover .main-hand{
+    filter: blur(1px);
+}
+
+.section2-frame2:hover .leaf-glove{
+    filter: blur(1px);
+}
+.section2-frame2:hover .leaf-glove2{
+    filter: blur(1px);
+}
+.section2-frame2:hover .leaf-glove3{
+    filter: blur(1px);
+}
+.section2-frame2:hover .leaf-glove4{
+    filter: blur(1px);
+}
+.section2-frame2:hover .flower{
+    filter: blur(1px);
+}
+
+.section2-frame2:hover .mask-woman{
+    opacity: 1;
+}
+.section2-frame2:hover .mask-woman2{
+     opacity: 1;
+}
+.section2-frame2:hover .covid19{
+     opacity: 1;
+}
+.section2-frame2:hover .flower{
+     opacity: 1;
+}
+.section2-frame2:hover .soldier1{
+     opacity: 1;
+}
+.section2-frame2:hover .soldier2{
+     opacity: 1;
+}
+.section2-frame2:hover .soldier3{
+     opacity: 1;
+}
+
+.section2-frame2:hover .y-circle1{
+     opacity: 1;
+}
+
+.section2-frame2:hover .y-circle2{
+     opacity: 1;
+}
+
+.section2-frame2:hover .w-circle{
+     opacity: 1;
+}
+
+
+.y-circle1 {
+    top: 61px;
+    left: 209px;
+    opacity: 0;
+    transition: all 10s;
+}
+
+.y-circle2 {
+    top: 364px;
+    left: 630px;
+    opacity: 0;
+    transition: all 3s;
+}
+
+.triangle1> img:nth-of-type(1) {
+    opacity: 0;
+    transition: 6s;
+    
+}
+
+.triangle1 {
+    
+}
+
+.triangle2> img:nth-of-type(1){
+    opacity: 0;
+    transition: 6s;
+    
+}
+
+.triangle2 {
+    left: 698px;
+}
+
+.filter > img:nth-of-type(1){
+    opacity: 0;
+    transition: 11s;
+}
+
+.main-hand> img:nth-of-type(1) {
+    opacity: 0;
+    transition: 8s;
+    
+}
+
+.main-hand {
+    left: 199px;
+    filter: blur(8px);
+    transition: all 2.5s
+}
+
+.leaf-glove> img:nth-of-type(1) {
+    opacity: 0;
+    transition: 5s;
+    
+}
+
+.leaf-glove{
+    left: 261px;
+    top: 318px;
+    filter: blur(5px);
+    transition: all 1s;
+}
+
+
+
+.mask-woman{
+    left: 388px;
+    top: 77px;
+    opacity: 0;
+    transition: all 40s;
+}
+
+.leaf-glove2> img:nth-of-type(1) {
+    opacity: 0;
+    transition: 10s;
+    
+}
+
+.leaf-glove2{
+    left: 528px;
+    bottom:40px;
+    filter: blur(5px);
+    transition: all 3s;
+}
+
+.leaf-glove3> img:nth-of-type(1){
+    opacity: 0;
+    transition: 8s;
+    
+}
+
+.leaf-glove3{
+    left: 681px;
+    top: 302px;
+    filter: blur(5px);
+    transition: all 5s;
+}
+
+.leaf-glove4> img:nth-of-type(1) {
+    opacity: 0;
+    transition: 12s;
+    
+}
+
+.leaf-glove4{
+    left: 199px;
+    top: 219px;
+    filter: blur(5px);
+    transition: all 4s;
+}
+
+.hand2> img:nth-of-type(1){
+    opacity: 0;
+    transition: 15s;
+    
+}
+
+.hand3> img:nth-of-type(1){
+    opacity: 0;
+    transition: 15s;
+    
+}
+
+.hand3{
+    left:24px;
+    top: 205px;
+    
+}
+
+.hand4> img:nth-of-type(1){
+    opacity: 0;
+    transition: 15s;
+    
+}
+
+.hand4{
+    top: 392px;
+    
+}
+
+.w-circle{
+    top: 210px;
+    left: 814px;
+    opacity: 0;
+    transition: all 8s;
+    
+}
+
+.flower> img:nth-of-type(1){
+    opacity: 0;
+    transition: 8s;
+    
+}
+
+.flower{
+    top: 264px;
+    left: 336px;
+    filter: blur(8px);
+    transition: all 5s;
+    
+}
+
+
+
+.soldier1{
+    top: 359px;
+    left: 680px;
+      opacity: 0;
+    transition: all 9s;
+}
+
+
+.soldier2{
+    top: 493px;
+    left: 625px;
+      opacity: 0;
+    transition: all 12s;
+}
+
+
+.soldier3{
+    top: 474px;
+    left: 699px;
+      opacity: 0;
+    transition: all 15s;
+}
+
+
+
+.covid19{
+    top: 272px;
+    left: 564px;
+      opacity: 0;
+    transition: all 30s;
+}
+    
+.mask-woman2 {
+    top: 24px;
+    left: 731px;
+    opacity: 0;
+    transition: all 20s;
+}
+
+
+
+
+
+
+

@@ -7,7 +7,7 @@
 
 body {
     font-family: Arita-buri-SemiBold, serif;
-    background-color: rgb(251, 243, 245);
+    background-color: #fbf3f5;
 }
 
 a {
@@ -16,6 +16,10 @@ a {
 }
 
 li a {
-    color: blanchedalmond;
+    color: aliceblue;
     list-style: none;
+}
+
+h2 a {
+    color: aliceblue;
 }

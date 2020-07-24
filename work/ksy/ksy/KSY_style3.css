@@ -2,58 +2,21 @@
   position: relative;
     margin: 0px auto;
     width:900px;
-    height:800px;   
+    height:600px;   
 }
 
 
-.title {
-    position: absolute;
-    z-index: 0;
-font-family: 'Nanum Myeongjo', serif;
-font-size: 45px;
-    color: blueviolet;
-    transition: color 0.3s;
-    transition-duration: color 1s;
-}
-
-
-.title-bling img {
-    width: 130px;
-    opacity:0.8;
-}
-
-.title-bling {
-    position: absolute;
-    z-index: 1;
-    top:0px;
-    left: 150px;
-    transition: all 0.6s;
-}
-
-
-.title:hover {
-    color: rgba(220,180,230,1);
-}
-.title:hover + .title-bling {
-    transform: translateX(-300px);
-}
-
-p {
-    position: absolute;
-    top: 85px;
-    font-size:12px;
-    margin:25px 0px;
-   font-family: 'Nanum Myeongjo', serif;
-    color: blueviolet;
-}
-
-
-.frame1 {
+.frame3 {
     position:absolute;
     margin: 0px auto;
-    top:180px;
+    top:0px;
     width:900px;
     height:800px;
+}
+
+.background {
+     position:absolute;
+    z-index: -2;
 }
 
 
@@ -67,8 +30,23 @@ p {
 }
 
 .bus:hover {
-    transform: scale(0.9) translateX(-150px);
+    transform: scale(0.9) translateX(-200px);
 }
+
+.johyungE-3 {
+      position: absolute;
+    bottom:90px;
+    right: 3px;
+    z-index: 0;
+    transition-duration: 1s;
+    transform: scale(0.3);
+    opacity:1;
+}
+
+.bus:hover + .johyungE-3 {
+    transform: scale(0.7) translateY(-150px);
+}
+
 
 .carrier {
     position: absolute;
@@ -163,6 +141,7 @@ right:200px;
     position: absolute;
     top: 170px;
     right: 20px;
+    z-index: -1;
 }
 
 .rail {

@@ -6,32 +6,50 @@
     <title>만춘</title>
     <link rel="stylesheet" type="text/css" href="css/1-main.css">
     <link rel="stylesheet" type="text/css" href="css/body.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
+    <!-- 웹 페이지 크기 및 위치 자동 고정하기 -->
+    <script>
+        window.onfocus = function () {}
+        window.onload = function () {
+            window.focus(); // 현재 window 즉 익스플러러를 윈도우 최상단에 위치
+            window.moveTo(0, 0); // 웹 페이지의 창 위치를 0,0 (왼쪽 최상단) 으로 고정
+            window.resizeTo(1280, 800);
+            window.scrollTo(0, 250);
+        }
+    </script>
+
 </head>
 
 <body>
+
     <div id="frame">
         <header>
             <div class="header-background">
                 <div class="header-title">
                     <h2>만춘</h2>
-                    <h3> 2020.07.25 open</h3>
-                    <p>본 전시는 코로나 19 로 인해 2020 년의 늦은 봄을 만끽하게 된 홍익대학교 인터렉티브 미디어 소모임
+                    <h3> 2020.07.25 17:00 open</h3>
+                    <p>본 전시는 코로나 19 로 인해 2020 년의 늦은 봄을 만끽하게 된 홍익대학교 인터렉티브 미디어 소모임 <br>
                         <Open Source Lab> 일원이 함께한 두 번째 전시이다. 전시를 준비하면서, 모든 과정을 비대면으로 진행해 온
-                            우리는, 관람객과 소통하는 ‘인터렉션(Interaction)’에 초점을 맞춰 시간과 장소에 구애받지 않는 언택트(Untact)
-                            작품을 만들고자 한다. 1 인에서 2 인의 팀을 이루어 웹(web)이라는 매개체에서 인터렉티브 포토 콜라주, 웹
-                            페이지, 일러스트, 마우스 인터렉션 등 을 사용해, 각자의 사사로움이 눌러담긴 《만춘》을 이야기한다.</p>
+                            우리는 <br> 관람객과 소통하는 ‘인터렉션(Interaction)’에 초점을 맞춰 시간과 장소에 구애받지 않는 언택트(Untact) <br>
+                            작품을 만들고자 한다. 1 인에서 2 인의 팀을 이루어 웹(web)이라는 매개체에서 인터렉티브 포토 콜라주 <br> 웹
+                            페이지, 일러스트, 마우스 인터렉션 등 을 사용해, 각자의 사사로움이 눌러담긴 《만춘》을 이야기한다.
+                    </p>
                 </div>
                 <div id="textBox-osl">
-                    <a href="https://hi-oslab.github.io/home/">
+                    <a href="https://hi-oslab.github.io/home/" target="_blank">
                         <div id="content">
                             <h4> 홍익대학교 조형대학 <br> 인터렉션 아트팀 오픈소스랩</h4>
                         </div>
-                    </a></div>
-                <a href="intro.html">
-                    <div id="textBox-display">
-                        <h4> 전시관람 </h4>
-                    </div>
-                </a>
+                    </a>
+                </div>
+
+                <div id="textBox-display">
+                    <a href="intro.html" onclick="alert('PC Chrome 연결 후 관람을 바랍니다. 확인 시 전시장으로 넘어갑니다.')">
+                        <h4> 전시관람하러 가기 </h4>
+                    </a>
+                </div>
                 <p class="down"> <a href="#people-display">참여자를 보려면 아래로 내리세요</a></p>
             </div>
         </header>
@@ -42,60 +60,59 @@
 
                 <div class="split-line-gray"></div>
 
-                 <div class="four-column people">
-                     <div class="one-person">
-                         <img src="image/sanghun.png">
-                         <p id="name-white">오상훈</p>
-                     </div>
-                     <!--                    후버하면 보이는 내용-->
-                     <div class="description">
-                         <p id="name">오상훈</p>
-                         <p class="description-textBox-position">Director / Developer</p>
-                         <p class="description-textBox"><a href="mailto:ohrokdesign@gmail.com">click to contact</a></p>
-                     </div>
-                 </div>
-                 <div class="four-column people">
-                     <div class="one-person">
-                         <img src="image/youjung.png">
-                         <p id="name-white">김유정</p>
-                     </div>
-                     <!--                    후버하면 보이는 내용-->
-                     <div class="description">
-                         <p id="name">김유정</p>
-                         <p class="description-textBox-position">Developer / Artist</p>
-                         <p class="description-textBox"><a href="
-mailto:good000330@naver.com">click to contact</a></p>
-                     </div>
-                 </div>
-                 </div>
-                <div class="people">
-                    <div class="four-column people">
-                        <div class="one-person">
-                            <img src="image/sejin.png">
-                            <p id="name-white">오세진</p>
-                        </div>
-                        <!--                    후버하면 보이는 내용-->
-                        <div class="description">
-                            <p id="name">오세진</p>
-                            <p class="description-textBox-position">Developer</p>
-                            <p class="description-textBox"><a href="
+                <div class="four-column people">
+                    <div class="one-person">
+                        <img src="image/sanghun.png">
+                        <p id="name-white">오상훈</p>
+                    </div>
+                    <!--                    후버하면 보이는 내용-->
+                    <div class="description">
+                        <p id="name">오상훈</p>
+                        <p class="description-textBox-position">Director / Developer</p>
+                        <p class="description-textBox"><a href="mailto:ohrokdesign@gmail.com">click to contact</a></p>
+                    </div>
+                </div>
+                <div class="four-column people">
+                    <div class="one-person">
+                        <img src="image/youjung.png">
+                        <p id="name-white">김유정</p>
+                    </div>
+                    <!--                    후버하면 보이는 내용-->
+                    <div class="description">
+                        <p id="name">김유정</p>
+                        <p class="description-textBox-position">Developer / Artist</p>
+                        <p class="description-textBox"><a href="mailto:good000330@naver.com">click to contact</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="people">
+                <div class="four-column people">
+                    <div class="one-person">
+                        <img src="image/sejin.png">
+                        <p id="name-white">오세진</p>
+                    </div>
+                    <!--                    후버하면 보이는 내용-->
+                    <div class="description">
+                        <p id="name">오세진</p>
+                        <p class="description-textBox-position">Developer</p>
+                        <p class="description-textBox"><a href="
 mailto:ohsj1999@naver.com">click to contact</a></p>
-                        </div>
                     </div>
-                    <div class="four-column people">
-                        <div class="one-person">
-                            <img src="image/somin.png">
-                            <p id="name-white">정소민</p>
-                        </div>
-                        <!--                    후버하면 보이는 내용-->
-                        <div class="description">
-                            <p id="name">정소민</p>
-                            <p class="description-textBox-position">Storyteller / Artist</p>
-                            <p class="description-textBox"><a href="
+                </div>
+                <div class="four-column people">
+                    <div class="one-person">
+                        <img src="image/somin.png">
+                        <p id="name-white">정소민</p>
+                    </div>
+                    <!--                    후버하면 보이는 내용-->
+                    <div class="description">
+                        <p id="name">정소민</p>
+                        <p class="description-textBox-position">Storyteller / Artist</p>
+                        <p class="description-textBox"><a href="
 mailto:sooomin120@naver.com">click to contact</a></p>
-                        </div>
                     </div>
-                   
+                </div>
+
 
 
                 <div id="people-display">
@@ -198,9 +215,15 @@ mailto:juminshin1@gmail.com">click to contact</a></p>
         </main>
     </div>
     <footer>
-        <div class="logo"><a href="#"><img src="image/osl_logo.png" alt="오소랩로고"></a></div>
-        <div >
-            <a class="contact-us" href="mailto:hi.oslab@gmail.com">Contact Us</a>
+        <div class="logo">
+            <a href="https://hi-oslab.github.io/home/" target="_blank">
+                <img src="image/osl_logo.png" alt="오소랩로고">
+            </a>
+        </div>
+        <div class="footer-box">
+            <p class="contact-us">
+                <a href="mailto:hi.oslab@gmail.com">Contact Us</a>
+            </p>
             <br>
             <p class="footer-text">2020 Open Source Lab, Hong-ik Univ.</p>
         </div>

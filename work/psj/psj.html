@@ -3,19 +3,22 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>봄을 그리다</title>
-    <link rel="stylesheet" type="text/css" href="../../css/work.css">
+    <title>만춘</title>
+    <link rel="stylesheet" type="text/css" href="../../css/team.css">
     <link rel="stylesheet" type="text/css" href="../../css/body.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../image/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../image/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../image/favicon-16x16.png">
 </head>
 
 <body>
     <nav>
         <div class="nav-background">
-            <h2 id="nav-title"> 만춘</h2>
+            <h2 id="nav-title"><a href="../../home.html">만춘</a></h2>
             <ul>
-                    <li> <a href="../home.html">홈</a> </li>
-                    <li> <a href="../home.html#people-display">참여자 소개</a> </li>
-                    <li> <a href="../intro.html#guestbook">방명록</a> </li>
+                    <li> <a href="../../home.html">홈</a> </li>
+                    <li> <a href="../../home.html#people-display">참여자 소개</a> </li>
+                    <li> <a href="../../intro.html#guestbook">방명록</a> </li>
             </ul>
         </div>
     </nav>
@@ -29,9 +32,9 @@
                 </div>
             </div>
             <p> 창문으로 바라보는 바깥 풍경은 사람이 없어 조용하기만 한데
-                뉴스에서 들려오는 소식들은 여느 때보다 더 시끄러웠다.
+                뉴스에서 들려오는 소식들은 <br> 여느 때보다 더 시끄러웠다.
                 이번 전시에서는 그렇게 짧게 끝나버린 나의 봄을 그렸다.
-                (사진 출처 : 영화 <봄날은 간다>, 연합뉴스, 한겨레) </p>
+                <br> (사진 출처 : 영화 <봄날은 간다>, 연합뉴스, 한겨레) </p>
         </section>
 
 
@@ -40,13 +43,23 @@
         </div>
 
 
-        <p class="top"> Back to top </p>
+        <p style="cursor:pointer;" onclick="window.scrollTo(0,0);" class="top"> Back to top </p>
 
     </main>
 
     <footer>
-        <div class="logo"><a href="#"><img src="../../image/osl_logo.png" alt="오소랩로고"></a></div>
-        <div class="contant-us"><a href="mailto:hi.oslab@gmail.com">Contant Us</a></div>
+        <div class="logo">
+            <a href="https://hi-oslab.github.io/home/" target="_blank">
+                <img src="../../image/osl_logo.png" alt="오소랩로고">
+            </a>
+        </div>
+        <div class="footer-box">
+            <p class="contact-us">
+                <a href="mailto:hi.oslab@gmail.com">Contact Us</a>
+            </p>
+            <br>
+            <p class="footer-text">2020 Open Source Lab, Hong-ik Univ.</p>
+        </div>
     </footer>
 </body>
 

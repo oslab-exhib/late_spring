@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>봄낮</title>
+   <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Song+Myung&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/youjung_style.css">
+
+</head>
+<body>
+  
+     <div class="frame">
+
+ <div class="center">
+          <p class="year"> 2020</p>
+          <div class="springtime"><img src="images/1_springtime.png"></div>
+        <h1 class="logo"> 봄낮</h1>
+       </div>
+        <section class="description">
+            <p> 봄은 모든 것이 활기를 얻어가는 신록의 계절이지만 <br> 올해는 창문 너머 햇볕을 즐기지도, 흐트러지는 꽃잎을 잡지도 못했다.<br> 제대로 즐기지도 못한 채 저물어버린 봄에 대한 아쉬움을 담아 <br> 찾아올 봄낮을 기원해본다.</p>
+        </section>
+        <main>
+            <div class="picture">
+                <div class="room">
+                  <div class="flower-move"><img id="back-flower" src="images/1_flower.png"></div>
+                   <img src="images/1_background.png" alt="오후의 어느날">
+                   <div class="object">
+                   
+                   <script type="text/javascript">
+                        var i = 0;
+                        function toggle_object(post_id)
+                        {  
+                            i = i + post_id;
+                            var obj = document.getElementById('book');  
+                            if(!obj) return;  
+
+                            if(i%2!=0)
+                            {  
+                                obj.src="images/1_book-close.png";
+
+                            }
+                            else
+                            {  
+                                obj.src="images/1_book.png";
+                            }
+                        }
+                        </script>
+                        <a href="#" onclick="toggle_object(1); return false;">
+                        <img src="images/1_book.png" id="book"></a>
+                        
+                    <div class="doll-tired"><img src="images/1_doll_tired.png"></div>
+                <div class="doll"><img src="images/1_doll.png" ></div>
+                <div class="cup_melting"><img src="images/1_cup-melting.png" alt=""></div>
+                <div class="cup"><img src="images/1_cup.png" alt=""></div>
+                <div class="phone-alarm"><img src="images/1_phone_black.png" alt=""></div>
+                   
+                 <div class="wrap">
+                    <label for="modal" class="button"><div class="phone"><img src="images/1_phone.png" alt=""></div></label>
+                </div>
+                <input type="checkbox" id="modal" class="hidden">
+                <div class="box_modal">
+                  <label for="modal" class="closer">x</label>
+                  <div class="text">
+                    <h3>안전 안내 문자</h3>
+                    <p> [중대본] 코로나19는 밀폐, 밀집, 밀접 시설에서 전파위험이 높습니다. 다중 이용 시설 방문자제, 환기, 표면 소독, 마스크 착용, 2m 거리두기 등 방역 수칙 실천해주세요. </p>
+                </div>
+                </div>
+            </div>
+        </div>
+                
+                <div class="spring">
+                   <img src="images/2_background.png" alt="불어오는 꽃잎">
+                   <div class="object">
+                     <div class="phone-black"></div>
+<!--                     <div class="phone-button">여기에 버튼 들어가야됨-배경></div>-->
+                  
+                  <div class="home">
+                   <div class="home-button"><img src="images/2_home_button.png" alt=""></div>
+                      <div class="phoneback"><img src="images/2_phoneback.png"></div>
+                      </div>
+                     
+                        <div class=scroll-move>
+                      <div class="flower"><a href="#want"><img src="images/2__flower.png"></a></div>
+                      </div>
+                   </div>
+                   
+                   
+                </div>
+                
+                <div>
+           <div class="dream"> <p>떨어지는 벚꽃잎을 잡으면 <br> 소원이 이루어진대요</p> </div>
+           <div class="thirdbackground" id="want">
+           <img src="images/3_background.png">
+           
+           <div id="want"> 
+           <img class="highimg" src="images/3_high.png">
+           
+            <form id="search">
+                <input type="text" value="소원을 적어주세요."> </form>
+            </div>
+            
+            <img class="lowimg"  src="images/3_low.png">
+        </div>
+         </div>
+          </div>
+           </main>
+            
+            <!--      Footer      -->
+            <footer>
+               <div class="right">
+                <p> 2020 aksoon all Right Reserved </p>
+                </div>
+            </footer>
+        
+    </div>
+        
+</body>
+</html>
