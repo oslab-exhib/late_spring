@@ -1,0 +1,206 @@
+.ui {
+    position: absolute;
+    display: inline-block;
+/*    cursor: pointer;*/
+/*    border: 1px dashed gray;*/
+    
+/*    background-color: rgba(176, 21, 44, 0.3);*/
+}
+
+.frame2:hover .smallhand {
+    filter: blur(1px);
+        
+}
+
+.frame2:hover .handlife{
+    filter: blur(1px);
+        
+}  
+.frame2:hover .frame-with-hand {
+    filter: blur(1px);
+        
+}  
+
+.frame2:hover .grandma {
+    opacity:1;
+        
+}  
+
+.frame2:hover .family {
+    opacity:1;
+        
+}  
+
+.frame2:hover .orange1{
+    opacity:1;
+        
+}  
+
+.frame2:hover .orange2{
+    opacity:1;
+        
+}  
+
+.frame2:hover .orange3{
+    opacity:1;
+        
+}  
+
+
+.circle1> img:nth-of-type(1) {
+    opacity: 0;
+    transition: opacity 10s;
+}
+
+.circle1 {
+    top: 122px;
+    left: 260px;
+    
+}
+
+.circle2> img:nth-of-type(1) {
+    opacity: 0;
+    transition: opacity 10s;
+}
+
+.circle2 {
+    top: 321px;
+    
+}
+
+.circle4>img:nth-of-type(1) {
+    opacity: 0;
+    transition: opacity 10s;
+}
+
+.circle4{
+    top: 556px;
+    left: 382px;
+    
+}
+
+.smallhand> img:nth-of-type(1) {
+    opacity: 0;
+    transition: opacity 15s;
+
+}
+
+.smallhand{
+    top: 64px;
+    filter: blur(5px);
+    transition: all 0.5s;
+
+}
+
+
+.desk-big{
+    top:377px;
+    left:609px;
+}
+
+
+
+.desk-small{
+    top: 471px;
+    left: 429px;
+
+
+}
+
+
+
+.handlife> img:nth-of-type(1) {
+    opacity: 0;
+    transition: opacity 10s;
+    
+    
+}
+
+.handlife{
+    top: 64px;
+    filter: blur(5px);
+    transition: all 0.5s;
+}
+
+.frame-with-hand> img:nth-of-type(1) {
+    opacity: 0;
+    transition: opacity 13s;
+    
+}
+
+.frame-with-hand{
+    filter: blur(5px);
+    top: 124px;
+    left: 608px;
+    transition: all 0.5s;
+}
+
+.circle3>img:nth-of-type(1){
+    opacity: 0;
+    transition: opacity 10s;
+}
+
+.circle3 {
+
+    top: 461px;
+    left: 85px;
+}
+
+
+.circle5 {
+    top: 270px;
+    left: 772px;
+}
+
+.circle5> img:nth-of-type(1) {
+    opacity: 0;
+    transition: opacity 10s;
+}
+
+
+
+.grandma {
+    top: 142px;
+    left: 709px;
+      opacity: 0;
+    transition: opacity 20s;
+}
+
+
+
+.family {
+    top: 331px;
+    left: 338px;
+    opacity: 0;
+    transition: opacity 16s;
+    
+}
+
+.orange1 {
+    top: 267px;
+    left: 173px;
+    opacity: 0;
+    transition: opacity 2s;
+    
+}
+
+.orange2 {
+    top: 536px;
+    left: 121px;
+    opacity: 0;
+    transition: opacity 3s;
+    
+}
+
+.orange3 {
+    top: 91px;
+    left: 664px;
+    opacity: 0;
+    transition: opacity 4s;
+    
+}
+
+
+
+
+

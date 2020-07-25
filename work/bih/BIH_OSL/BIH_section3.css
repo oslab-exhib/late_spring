@@ -1,0 +1,504 @@
+.section3-frame2:hover .building1 {
+    opacity: 0;
+}
+
+.section3-frame2:hover .crane {
+    opacity: 0;
+}
+
+.section3-frame2:hover .building2 {
+    opacity: 0;
+}
+
+.section3-frame2:hover .groupmoney1 {
+    opacity: 0;
+}
+
+.section3-frame2:hover .groupmoney2 {
+    opacity: 0;
+}
+
+.section3-frame2:hover .diamond {
+    opacity: 0;
+}
+
+.section3-frame2:hover .mainhand {
+    opacity: 0;
+}
+
+.section3-frame2:hover .subhand1 {
+    opacity: 0;
+}
+.section3-frame2:hover .chain1 {
+    opacity: 0;
+}
+.section3-frame2:hover .chain2 {
+    opacity: 0;
+}
+.section3-frame2:hover .subhand2 {
+    opacity: 0;
+}
+.section3-frame2:hover .subhand3 {
+    opacity: 0;
+}
+.section3-frame2:hover .happywoman {
+    opacity: 0;
+}
+.section3-frame2:hover .eye1 {
+    opacity: 0;
+}
+.section3-frame2:hover .eye2 {
+    opacity: 0;
+}
+.section3-frame2:hover .eye3 {
+    opacity: 0;
+}
+.section3-frame2:hover .mainwoman {
+    opacity: 0;
+}
+
+
+
+
+
+.building1> img:nth-of-type(1) {
+    opacity: 0;
+    transition: opacity 5s; 
+}
+
+.building1{
+    top: 325px;
+    left: 724px;  
+}
+
+.w-line> img:nth-of-type(1) {
+    opacity: 0;
+    transition: opacity 3s;
+}
+
+.w-line{
+    top: 235px;
+    left: 265px;
+    
+}
+
+.p-group1> img:nth-of-type(1) {
+    opacity: 0;
+    transition: opacity 6s;
+}
+
+.p-group1{
+ 
+    
+}
+
+.p-group2> img:nth-of-type(1) {
+    opacity: 0;
+    transition: opacity 8s;
+}
+
+.p-group2{
+   left: 200px;
+    
+}
+
+.p-box2> img:nth-of-type(1) {
+    opacity: 0;
+    transition: opacity 10s;
+}
+
+.p-box2{
+    top: 465px;
+ 
+    
+}
+
+.crane> img:nth-of-type(1) {
+    opacity: ;
+    transition: opacity 12s;
+}
+
+.crane{
+    top: 362px;
+
+    
+}
+
+.groupmoney1> img:nth-of-type(1) {
+    opacity: 0;
+    transition: opacity 12s;
+}
+
+.groupmoney1{
+
+    left: 203px;
+    
+}
+
+.building2> img:nth-of-type(1) {
+    opacity: 0;
+    transition: 16s;
+}
+
+.building2{
+    top: 459px;
+    
+}
+
+.diamond> img:nth-of-type(1) {
+    opacity: 0;
+    transition: opacity 8s;
+}
+
+.diamond{
+    top: 182px;
+    left: 324px;
+    
+}
+
+.mainhand> img:nth-of-type(1) {
+    opacity: 0;
+    transition: opacity 10s;
+}
+
+.mainhand{
+    top: 320px;
+    left: 358px;
+    
+}
+
+.subhand1> img:nth-of-type(1) {
+    opacity: 0;
+    transition: opacity 15s;
+}
+
+.subhand1{
+    top: 187px;
+
+    
+}
+
+.chain1> img:nth-of-type(1) {
+    opacity: 0;
+    transition: opacity 18s;
+}
+
+.chain1{
+    left: 680px;
+
+    
+}
+
+.groupmoney2> img:nth-of-type(1) {
+    opacity: 0;
+    transition: opacity 16s;
+}
+
+.groupmoney2{
+    left: 338px;
+    top: 64px;
+
+    
+}
+
+.happywoman> img:nth-of-type(1) {
+    opacity: 0;
+    transition: opacity 20s;
+}
+
+.happywoman{
+    top: 42px;
+    left: 247px;
+    
+}
+
+.subhand2> img:nth-of-type(1) {
+    opacity: 0;
+    transition: opacity 23s;
+}
+
+.subhand2{
+    top: 337px;
+    left: 727px;
+    
+}
+
+.subhand3> img:nth-of-type(1) {
+    opacity: 0;
+    transition: opacity 25s;
+}
+
+.subhand3{
+    top: 214px;
+    left: 787px;
+    
+}
+
+.mainwoman> img:nth-of-type(1) {
+    opacity: 0;
+    transition: opacity 21s;
+}
+
+.mainwoman{
+    top: 63px;
+    left: 373px;
+    
+}
+
+.eye1> img:nth-of-type(1) {
+    opacity: 0;
+    transition: opacity 23s;
+}
+
+.eye1{
+    top: 121px;
+    left: 707px;
+    
+}
+
+.eye2> img:nth-of-type(1) {
+    opacity: 0;
+    transition: opacity 25s;
+}
+
+.eye2 {
+    top: 243px;
+    left: 554px;
+    
+}
+
+.eye3> img:nth-of-type(1) {
+    opacity: 0;
+    transition: opacity 25s;
+}
+
+.eye3{
+    top: 172px;
+    left: 143px;
+    
+}
+
+.chain2> img:nth-of-type(1) {
+    opacity: 0;
+    transition: opacity 23s;
+}
+
+.chain2{
+ 
+    left: 694px;  
+}
+
+/*2차 인터렉션 소스*/
+
+.w-circle1 {
+    top: 444px;
+    left: 648px;
+    opacity: 0;
+    transition: all 12s;
+}
+
+.w-circle2 {
+    top: 458px;
+    left: 692px;
+    opacity: 0;
+    transition: all 10s;
+}
+
+.w-circle3 {
+    top: 256px;
+    left: 727px;
+    opacity: 0;
+    transition: all 8s;
+}
+
+.w-circle4 {
+  
+    left: 265px;
+    opacity: 0;
+    transition: all 6s;
+}
+
+.w-circle5 {
+    top: 320px;
+    left: 223px;
+    opacity: 0;
+    transition: all 3s;
+}
+
+.flower-group {
+    top: 475px;
+    left: 116px;
+    opacity: 0;
+    transition: all 8s;
+}
+
+.flower-group2 {
+    top: 566px;
+    opacity: 0;
+    transition: all 10s;
+}
+
+.flower-group3 {
+    top: 495px;
+    opacity: 0;
+    transition: all 12s;
+    
+}
+
+.flower-group4 {
+   top: 530px;
+    opacity: 0;
+    transition: all 14s; 
+}
+
+.flower-group5 {
+   top: 414px;
+    opacity: 0;
+    transition: all 16s;  
+}
+
+.flower-group6 {
+    top: 355px;
+    opacity: 0;
+    transition: all 18s;   
+}
+
+.subflower {
+    
+    left: 115px;
+    opacity: 0;
+    transition: all 10s; 
+}
+
+.splash1 {
+    left: 734px; 
+    opacity: 0;
+    transition: all 3s; 
+} 
+
+
+.splash2 {
+    left: 646px;
+    opacity: 0;
+    transition: all 5s; 
+}
+
+.splash3 {
+    top: 256px;
+    left: 132px;
+    opacity: 0;
+    transition: all 7s; 
+}
+
+.splash4 {
+    top: 244px;
+    left: 190px;
+    opacity: 0;
+    transition: all 9s;  
+}
+
+.subhand4 {
+    top: 99px;
+    opacity: 0;
+    transition: all 12s; 
+}
+
+.two-hand {
+    top: 211px;
+    left: 280px;
+    opacity: 0;
+    transition: all 5s; 
+}
+
+.birds {
+   top: 250px;
+    left: 680px;
+    opacity: 0;
+    transition: all 15s; 
+}
+
+.main-dad {
+    top: 34px;
+    left: 380px;
+    opacity: 0;
+    transition: all 3s;  
+}
+
+.main-flower {
+    top: 227px;
+    left: 382px;
+    opacity: 0;
+    transition: all 3s;  
+}
+
+/*인터렉션*/
+
+.section3-frame2:hover .w-circle1 {
+    opacity: 1;
+}
+.section3-frame2:hover .w-circle2 {
+    opacity: 1;
+}
+.section3-frame2:hover .w-circle3 {
+    opacity: 1;
+}
+.section3-frame2:hover .w-circle4 {
+    opacity: 1;
+}
+.section3-frame2:hover .w-circle5 {
+    opacity: 1;
+}
+.section3-frame2:hover .flower-group {
+    opacity: 1;
+}
+.section3-frame2:hover .flower-group2 {
+    opacity: 1;
+}
+.section3-frame2:hover .flower-group3 {
+    opacity: 1;
+}
+.section3-frame2:hover .flower-group4 {
+    opacity: 1;
+}
+.section3-frame2:hover .flower-group5 {
+    opacity: 1;
+}
+.section3-frame2:hover .flower-group6 {
+    opacity: 1;
+}
+.section3-frame2:hover .subflower {
+    opacity: 1;
+}
+.section3-frame2:hover .main-dad {
+    opacity: 1;
+}
+.section3-frame2:hover .main-flower {
+    opacity: 1;
+}
+.section3-frame2:hover .birds {
+    opacity: 1;
+}
+.section3-frame2:hover .splash1 {
+    opacity: 1;
+}
+.section3-frame2:hover .splash2 {
+    opacity: 1;
+}
+.section3-frame2:hover .splash3 {
+    opacity: 1;
+}
+.section3-frame2:hover .splash4 {
+    opacity: 1;
+}
+
+.section3-frame2:hover .two-hand {
+    opacity: 1;
+}
+.section3-frame2:hover .subhand4 {
+    opacity: 1;
+}
+.section3-frame2:hover .subflower {
+    opacity: 1;
+}
+
+
